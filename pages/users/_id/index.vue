@@ -5,8 +5,9 @@
 export default {
 validate(data) {
   console.log(data);
-  return data.params.id
-}
+  return /^\d+$/.test(data.params.id)
+},
+layout: 'users'
 }
 
 </script>

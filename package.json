@@ -11,7 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "prettier": "^1.14.3"
   },
   "devDependencies": {
     "cross-env": "^5.0.1"
